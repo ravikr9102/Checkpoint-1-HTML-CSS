@@ -1,0 +1,195 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/* Custom Styles */
+
+/* Header */
+
+.header{
+    background-color: darkslateblue;
+    text-align: center;
+    font-size: 30PX;
+    padding: 20PX;  
+}
+a{
+    margin-left: 16px;
+    margin-right: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+/* Section Start */
+
+h1{
+    text-align: center;
+    font-size: 32px;
+    text-transform: capitalize;
+    padding: 40px 40px 0px 40px;
+}
+
+/* Exercise One */
+
+.heading{
+    text-align: center;
+    font-size: 32px;
+    margin: 32px 0px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    margin: 50px auto;
+    border: 20px solid blue;
+    outline: 10px solid black;
+    box-shadow: 0 0 0 30px aqua;
+    border-radius: 3%;
+}
+.marker-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color: #99D8CA;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 12px;
+}
+.padding{
+    background-color: #0D1430;
+}
+.border{
+    background-color: #90FFA9;
+}
+.margin{
+    background-color: #5873E2;
+}
+.marker{
+    margin: 0px 16px;
+    display: inline-block;
+}
+hr{
+    width: 700px;
+    border-style: dashed;
+    border-color: gray;
+    margin: 32px auto;
+}
+
+/* Exercise 2 */
+
+.container{
+    width: 660px;
+    border: 2px solid gray;
+    margin: 24px auto;
+    font-size: 0;
+}
+.child-box{
+    width: 200px;
+    height: 180px;
+    margin: 10px;
+    background-color: gray;
+    display: inline-block;
+}
+.border{
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+/* Section End */
+
+
+/* Blog Page Start */
+
+ .container-blog{
+    width: 1100px;
+    margin: 0 auto; 
+    padding: 8px 12px;
+ }
+ .blog-img {
+     width: 400px;
+ }
+ .blog-head {
+     width: 450px;
+     display: inline-block;
+     padding: 20px;
+     font-size: 24px;
+     vertical-align: top;
+ }
+ button {
+     padding: 5px;
+     background-color: green;
+     border-radius: 25%;
+ }
+ .blog-head1 {
+    width: 450px;
+    padding-bottom: 10px;
+ }
+ .blog-head2 {
+    width: 450px;
+    padding-bottom: 40px;
+    display: inline-block;
+ }
+ .container-blog{
+     margin-left: 35px;
+ }
+h2{
+    font-size: 25px;
+    color: blue;
+    padding: 20px;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+}
+.article-link{
+    color: green;
+    padding: 10px;
+}
